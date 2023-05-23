@@ -1,0 +1,20 @@
+﻿<Window x:Class="FactoryInClass.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FactoryInClass"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="New Json TexBox" HorizontalAlignment="Left" Margin="29,359,0,0" VerticalAlignment="Top" Height="49" Width="114" Click="NewTextBoxClick"/>
+        <Button Content="New Json Button" HorizontalAlignment="Left" Margin="185,359,0,0" VerticalAlignment="Top" Height="49" Width="114" Click="NewButtonClick"/>
+        <TextBox Name ="Context"  HorizontalAlignment="Left" Margin="29,52,0,0" TextWrapping="Wrap" Text="Context" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="heigh" HorizontalAlignment="Left" Margin="29,101,0,0" TextWrapping="Wrap" Text="heigh" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="width" HorizontalAlignment="Left" Margin="29,155,0,0" TextWrapping="Wrap" Text="width" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="top" HorizontalAlignment="Left" Margin="29,0,0,0" TextWrapping="Wrap" Text="top" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name ="left" HorizontalAlignment="Left" Margin="29,259,0,0" TextWrapping="Wrap" Text="left" VerticalAlignment="Top" Width="120"/>
+        <Button Content="New HTML TextBox" HorizontalAlignment="Center" Margin="0,359,0,0" VerticalAlignment="Top" Height="49" Width="114" Click="Button_Click"/>
+        <Button Content="New HTML Button" HorizontalAlignment="Left" Margin="488,359,0,0" VerticalAlignment="Top" Height="49" Width="114" Click="Button_Click_1"/>
+    </Grid>
+</Window>
